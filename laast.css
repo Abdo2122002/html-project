@@ -1,0 +1,50 @@
+body {
+    background-image: url("../img/LAST.jpg");
+    width: 100%;
+}
+
+.header .links a:hover {
+    background-color: rgb(128, 123, 123);
+}
+
+.header .links a {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgb(52, 37, 119);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header .links {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+.header {
+    z-index: 2;
+    color: rgb(13, 52, 138);
+    display: flex;
+    position: relative;
+}
+
+.container {
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(14, 17, 19);
+}
+
+.header .text {
+    text-align: center;
+    font-size: 100px;
+}
+
+.text {
+    font-size: 100px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgba(13, 14, 14, 0.932);
+}

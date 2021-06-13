@@ -1,0 +1,49 @@
+     body {
+         background-image: url("../img/الاحسن.jpg");
+         width: 100%;
+     }
+     
+     .header .links a:hover {
+         background-color: rgb(128, 123, 123);
+     }
+     
+     .header .links a {
+         display: inline-block;
+         margin-left: 20px;
+         color: rgb(41, 114, 182);
+         text-decoration: none;
+         font-size: 30px;
+     }
+     
+     .header .links {
+         list-style: none;
+         padding-left: 0;
+         padding-right: 30px;
+         width: 100%;
+         text-align: right;
+     }
+     
+     .header {
+         z-index: 2;
+         color: rgb(119, 177, 221);
+         display: flex;
+         position: relative;
+     }
+     
+     .container {
+         padding: 50px;
+         font-size: 25px;
+         color: rgb(103, 126, 145);
+     }
+     
+     .twxt2 {
+         color: rgb(196, 216, 233);
+     }
+     
+     .text {
+         color: rgb(71, 136, 185);
+     }
+     
+     .text3 {
+         color: rgb(109, 158, 223);
+     }
